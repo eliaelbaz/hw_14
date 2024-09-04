@@ -1,5 +1,3 @@
-# test_guess_number.py
-
 from guess_number import check_guess
 import pytest
 
@@ -22,5 +20,3 @@ def test_guess_out_of_range():
 
     with pytest.raises(ValueError, match="Number out of range"):
         check_guess(50, '-10')
-
-# כדי להריץ את הבדיקות, השתמש בפקודה: pytest test_guess_number.py
