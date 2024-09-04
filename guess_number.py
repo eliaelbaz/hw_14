@@ -1,5 +1,3 @@
-# guess_number.py
-
 def check_guess(lucky_number: int, user_guess: str) -> str:
     try:
         guess = int(user_guess)
